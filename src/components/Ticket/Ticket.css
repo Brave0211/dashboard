@@ -1,0 +1,84 @@
+.ticket{
+   width: 546px;
+   background: #FFFFFF;
+   border: 1px solid #DFE0EB;
+   border-radius: 8px;
+ }
+ 
+ .ticket__box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 32px;
+ }
+ 
+ .ticket__title{
+   font-weight: 700;
+   font-size: 19px;
+   line-height: 24px;
+   letter-spacing: 0.4px;
+   color: #252733;
+   margin: 0 0 8px;
+ }
+ 
+ .ticket__piece{
+   margin: 0;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+   color: #9FA2B4;
+   }
+ 
+ .ticket__text{
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+   color: #252733;
+   margin: 0;
+ }
+ 
+ .ticket__link{
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 20px;
+   text-align: right;
+   letter-spacing: 0.2px;
+   color: #3751FF;
+   text-decoration: none;
+ }
+ 
+ 
+ .ticketlist{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .ticketlist__item{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 18px 32px;
+   border-bottom: 1px solid #DFE0EB;
+ }
+ 
+ .ticketlist__text{
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 0.2px;
+   color: #252733;
+   margin: 0;
+ }
+ 
+ .ticketlist__num{
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 20px;
+   text-align: right;
+   letter-spacing: 0.2px;
+   color: #9FA2B4;
+   margin: 0;
+ }

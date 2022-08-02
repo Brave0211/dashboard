@@ -1,0 +1,116 @@
+.trend{
+   display: flex;
+   justify-content: space-between;
+   width: 1122px;
+   background: #FFFFFF;
+   border: 1px solid #DFE0EB;
+   border-radius: 8px;
+   margin-left: auto;
+ }
+ 
+ .left{
+   display: flex;
+   align-items: center;
+   padding: 32px;
+   padding-bottom: 466px;
+ }
+ 
+ .info{
+   margin-right: 300px;
+ }
+ 
+ 
+ .info__day{
+   
+   font-weight: 700;
+   font-size: 19px;
+   line-height: 24px;
+   letter-spacing: 0.4px;
+   color: #252733;
+   margin: 0 0 8px;
+ }
+ 
+ .info__time{
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 0.1px;
+   color: #9FA2B4;
+   margin: 0;
+ }
+ 
+ .today{
+   margin:0 32px 0 auto;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 15px;
+   letter-spacing: 0.1px;
+   color: #9FA2B4;  
+ }
+ 
+ .Yesterday{
+   margin: 0;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 15px;
+   letter-spacing: 0.1px;
+   color: #9FA2B4;
+ }
+ 
+ .blueline{
+   display: inline-block;
+   margin-right: 8px;
+   width: 16px;
+   background-color:#3751FF ;
+   border: 2px solid #3751FF;
+ }
+ 
+ .grayline{
+   display: inline-block;
+   margin-right: 8px;
+   width: 16px;
+   border: 2px solid #DFE0EB;
+   background-color:#DFE0EB ;
+ }
+ 
+ .box{
+   display: flex;
+ }
+ 
+ .trendlist{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   
+ }
+ 
+ .trendlist__item{
+   width: 342px;
+   margin: 0;
+   border: 1px solid #DFE0EB;
+   padding: 32px 32px 24px;
+ }
+ 
+ .trendlist__text{
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 22px;
+   text-align: center;
+   letter-spacing: 0.3px;
+   color: #9FA2B4;
+   margin: 0 0 6px;
+ }
+ 
+ .trendlist__num{
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   text-align: center;
+   letter-spacing: 0.3px;
+   color: #252733;
+   margin: 0;
+ }
+ 
+ .trendlist__item:last-child{
+   border-bottom: none;
+ }

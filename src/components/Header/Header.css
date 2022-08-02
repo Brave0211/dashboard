@@ -1,0 +1,58 @@
+.header{
+   margin-bottom: 56px;
+   width: 1122px;
+   margin-left: auto;
+ }
+ 
+ .header__inner{
+   display: flex;
+   align-items: center;
+ }
+ 
+ .header__title{
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 30px;
+   letter-spacing: 0.3px;
+   color: #252733;
+   margin-right: auto;
+ }
+ 
+ .header__search{
+   background-color: transparent;
+   border: none;
+   margin-right: 28px;
+ }
+ 
+ .header__ring{
+   background-color: transparent;
+   border: none;
+   margin-right: 33px;
+ }
+ 
+ .header__owner{
+   margin: 0;
+   padding:0px 0px 0px 32px;
+   border-left:1px solid #DFE0EB ;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 20px;
+   text-align: right;
+   letter-spacing: 0.2px;
+   color: #252733;
+   display:flex;
+   align-items: center;
+ }
+ 
+ .header__owner::after{
+   display: inline-block;
+   margin-left: 14px;
+   width:44px ;
+   height:44px ;
+   background-image: url('../../assets/images/jay.png');
+   vertical-align: middle;
+   background-position: top 10px;
+   background-size: 44px;
+   content: '';
+ }
